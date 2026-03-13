@@ -27,20 +27,6 @@ Projemizde $p=12$ ($m=4096$ kova) kullanıldığında teorik hata sınırı **%1
 * Java 25 (OpenJDK)
 * Maven
 
-### Adımlar
-1.  Depoyu klonlayın:
-    ```bash
-    git clone [https://github.com/kullaniciadi/hll-cardinality-estimator.git](https://github.com/kullaniciadi/hll-cardinality-estimator.git)
-    ```
-2.  Bağımlılıkları yükleyin ve derleyin:
-    ```bash
-    mvn clean install
-    ```
-3.  Uygulamayı çalıştırın:
-    ```bash
-    java -cp target/classes:$(mvn dependency:build-classpath | grep -v '\[INFO\]') Main
-    ```
-
 ## 🎥 Sunum Detayları
 * **Geliştirme Ortamı:** IntelliJ IDEA & Maven
 * **Dil Modeli:** Gemini / Claude (Agentic Kodlama Yaklaşımı)
