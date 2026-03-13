@@ -19,7 +19,6 @@ $$\text{Standart Hata} \approx \frac{1.04}{\sqrt{m}}$$
 
 Projemizde $p=12$ ($m=4096$ kova) kullanıldığında teorik hata sınırı **%1.63**'tür. Yapılan testlerde elde edilen **%0.88**'lik hata payı, tasarımın teorik sınırlarla uyumlu olduğunu göstermektedir.
 
-[Image of HyperLogLog cardinality estimation error rate graph]
 
 ## 💻 Kurulum ve Çalıştırma
 
@@ -34,5 +33,5 @@ Projemizde $p=12$ ($m=4096$ kova) kullanıldığında teorik hata sınırı **%1
 * **Özellik:** `merge()` metodu sayesinde iki farklı HLL yapısı kayıpsız birleştirilebilir.
 
 ---
-**Geliştirici:** [Adın Soyadın]  
-**Ders:** Büyük Veri Analitiği
+**Geliştirici:** [Taha Yılmaz]  
+**Ders:** Algoritma Analizi ve Tasarımı
